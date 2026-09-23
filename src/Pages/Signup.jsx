@@ -2,7 +2,7 @@ import { useState, useContext } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { UserContext } from "../App";
 
-const Signup = () => {
+const SignUp = () => {
   const navigate = useNavigate();
   const { setguser } = useContext(UserContext);
   let [user, setUser] = useState({
@@ -144,4 +144,4 @@ const Signup = () => {
   );
 };
 
-export default Signup;
+export default SignUp;
